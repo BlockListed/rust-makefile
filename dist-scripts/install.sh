@@ -13,9 +13,9 @@ fi
 
 if [ $1 == "help" ]
 then
-  echo -e "\`./install.sh uninstall' to uninstall the program."
-  echo -e "\`./install.sh' or \`./install.sh install' to install the program."
-  echo -e "\`./install.sh' help to show this page."
+  echo "\`./install.sh uninstall' to uninstall the program."
+  echo "\`./install.sh' or \`./install.sh install' to install the program."
+  echo "\`./install.sh' help to show this page."
   exit
 fi
 
