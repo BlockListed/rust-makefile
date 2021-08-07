@@ -8,6 +8,8 @@ default: build_release
 clean:
 	@echo "Cleaning build dir"
 	@rm -rf target/*
+	@echo "Cleaning using cargo"
+	@cargo clean
 check:
 	@echo "Checking $(NAME)"
 	@cargo check
